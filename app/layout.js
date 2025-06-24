@@ -4,12 +4,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Hack: TIAT - The Intersection of Art and Technology',
-  description: 'A 3-day creative technology hackathon exploring the intersection of art and the internet. August 15-17 at Frontier Tower.',
-  keywords: 'hackathon, art, technology, creative coding, web art, poetic web',
+  title: 'Art Hack - Poetic Computing | Critical & Creative AI Explorations',
+  description: 'A 3-day hackathon exploring critical and creative uses of AI. Build experimental projects that push the boundaries of what AI can create, question, and imagine. August 15-17 at Frontier Tower.',
+  keywords: 'hackathon, AI, artificial intelligence, creative AI, poetic computing, machine learning, generative art, critical AI, AI ethics',
   openGraph: {
-    title: 'Hack: TIAT - The Intersection of Art and Technology',
-    description: 'Join us for a 3-day creative technology hackathon where code meets canvas.',
+    title: 'Art Hack - Poetic Computing',
+    description: 'Join us for a 3-day hackathon exploring critical and creative uses of AI.',
     images: ['/og-image.png'],
   },
 }
