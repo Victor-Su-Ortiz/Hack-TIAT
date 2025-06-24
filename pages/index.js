@@ -30,14 +30,13 @@ export default function Home() {
             <tbody>
               <tr>
                 <td style={{ 
-                  background: 'linear-gradient(to bottom, #8090a0, #a0b0c0)', 
                   height: '100px',
                   textAlign: 'center'
                 }}>
-                  <span style={{ fontFamily: 'Comic Sans MS, Arial', fontSize: '36px', color: '#ffffff', fontWeight: 'bold' }}>
+                  <span style={{ fontFamily: 'Comic Sans MS, Arial', fontSize: '36px', color: '#ff00ff', fontWeight: 'bold' }}>
                     ART HACK
                   </span><br />
-                  <span style={{ fontFamily: 'Arial', fontSize: '24px', color: '#ffccff' }}>
+                  <span style={{ fontFamily: 'Arial', fontSize: '24px', color: '#0066cc' }}>
                     ~ poetic computing ~
                   </span>
                 </td>
