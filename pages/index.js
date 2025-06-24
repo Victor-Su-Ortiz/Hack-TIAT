@@ -59,8 +59,8 @@ export default function Home() {
           }}>
             <div style={{
               display: 'inline-block',
-              paddingLeft: '100%',
-              animation: 'marquee 25s linear infinite',
+              paddingLeft: '50%',
+              animation: 'marquee 20s linear infinite',
               position: 'absolute'
             }}>
               <span style={{ color: '#ff00ff' }}>❀</span> AUGUST 15-17 @ FRONTIER TOWER <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
