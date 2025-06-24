@@ -1,0 +1,4 @@
+/* Remove everything and just keep: */
+* {
+  box-sizing: border-box;
+}
