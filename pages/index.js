@@ -15,6 +15,7 @@ export default function Home() {
         <title>☆ ART HACK - POETIC COMPUTING ☆</title>
         <meta name="description" content="critical AI experiments hackathon august 15-17" />
         <meta name="keywords" content="hackathon, AI, art, poetic computing, san francisco" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <div style={{ 
@@ -22,21 +23,24 @@ export default function Home() {
         color: '#000080',
         minHeight: '100vh',
         margin: 0,
-        padding: 0
+        padding: '0 10px',
+        width: '100%',
+        overflowX: 'hidden'
       }}>
-        <center>
+        <center style={{ width: '100%', overflowX: 'auto' }}>
           {/* Header Banner */}
-          <table width="600" border="0" cellPadding="0" cellSpacing="0">
+          <table style={{ width: '100%', maxWidth: '600px' }} border="0" cellPadding="0" cellSpacing="0">
             <tbody>
               <tr>
                 <td style={{ 
                   height: '100px',
-                  textAlign: 'center'
+                  textAlign: 'center',
+                  padding: '10px'
                 }}>
-                  <span style={{ fontFamily: 'Comic Sans MS, Arial', fontSize: '36px', color: '#ff00ff', fontWeight: 'bold' }}>
+                  <span style={{ fontFamily: 'Comic Sans MS, Arial', fontSize: 'clamp(24px, 5vw, 36px)', color: '#ff00ff', fontWeight: 'bold' }}>
                     ART HACK
                   </span><br />
-                  <span style={{ fontFamily: 'Arial', fontSize: '24px', color: '#0066cc' }}>
+                  <span style={{ fontFamily: 'Arial', fontSize: 'clamp(16px, 3vw, 24px)', color: '#0066cc' }}>
                     ~ poetic computing ~
                   </span>
                 </td>
@@ -49,7 +53,8 @@ export default function Home() {
           {/* Marquee */}
           <div style={{ 
             backgroundColor: '#ffffe0', 
-            width: '600px', 
+            width: '100%',
+            maxWidth: '600px',
             overflow: 'hidden',
             whiteSpace: 'nowrap',
             margin: '0 auto',
@@ -60,7 +65,7 @@ export default function Home() {
             <div style={{
               display: 'inline-block',
               paddingLeft: '50%',
-              animation: 'marquee 20s linear infinite',
+              animation: 'marquee 15s linear infinite',
               position: 'absolute'
             }}>
               <span style={{ color: '#ff00ff' }}>❀</span> AUGUST 15-17 @ FRONTIER TOWER <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
@@ -70,14 +75,14 @@ export default function Home() {
           <br /><br />
 
           {/* Navigation */}
-          <table style={{ backgroundColor: '#ccddff' }} border="2" cellPadding="5" cellSpacing="0" width="600">
+          <table style={{ backgroundColor: '#ccddff', width: '100%', maxWidth: '600px' }} border="2" cellPadding="5" cellSpacing="0">
             <tbody>
               <tr>
-                <td align="center"><a href="#about" style={{ color: '#0000ff' }}>ABOUT</a></td>
-                <td align="center"><a href="#when" style={{ color: '#0000ff' }}>WHEN</a></td>
-                <td align="center"><a href="#where" style={{ color: '#0000ff' }}>WHERE</a></td>
-                <td align="center"><a href="#apply" style={{ color: '#0000ff' }}>APPLY</a></td>
-                <td align="center"><a href="#contact" style={{ color: '#0000ff' }}>EMAIL</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="#about" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>ABOUT</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="#apply" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>APPLY</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</a></td>
               </tr>
             </tbody>
           </table>
@@ -85,10 +90,10 @@ export default function Home() {
           <br />
 
           {/* Main Content Table */}
-          <table width="600" border="0" cellPadding="10" cellSpacing="0">
+          <table style={{ width: '100%', maxWidth: '600px' }} border="0" cellPadding="10" cellSpacing="0">
             <tbody>
               <tr>
-                <td>
+                <td style={{ padding: '10px' }}>
                   {/* About Section */}
                   <a id="about"></a>
                   <table width="100%" border="1" cellPadding="10" cellSpacing="0" style={{ backgroundColor: '#ffffff' }}>
@@ -343,7 +348,7 @@ export default function Home() {
                   <br />
 
                   {/* Footer */}
-                  <hr width="600" />
+                  <hr style={{ width: '100%', maxWidth: '600px' }} />
                   <span style={{ fontSize: '13px' }}>
                     <p>
                       made with ❀ and bad html<br />
@@ -373,6 +378,12 @@ export default function Home() {
           margin: 0;
           padding: 0;
           font-family: Arial, sans-serif;
+          background-color: #e8f0ff;
+          min-height: 100vh;
+          width: 100%;
+        }
+        * {
+          box-sizing: border-box;
         }
         @keyframes marquee {
           0% { transform: translate(0, 0); }
@@ -381,6 +392,14 @@ export default function Home() {
         @keyframes blink {
           0%, 50% { opacity: 1; }
           51%, 100% { opacity: 0; }
+        }
+        @media (max-width: 640px) {
+          table {
+            font-size: 12px !important;
+          }
+          center {
+            padding: 0 10px;
+          }
         }
       `}</style>
     </>
