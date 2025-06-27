@@ -116,6 +116,11 @@ export default function Home() {
                               <li>whatever weird thing you imagine!</li>
                             </ul>
                             
+                            <p style={{ fontSize: '12px', fontStyle: 'italic' }}>
+                              examples of the vibe we&apos;re going for:<br />
+                              → <a href="https://x.com/jacobrintamaki/status/1927855607597412389?t=KYX9sqJEwNyviaxBAcGfeA&s=19" target="_blank" style={{ color: '#0066cc' }}>jacob&apos;s AI experiments</a><br />
+                            </p>
+                            
                             <center>
                               <pre style={{ fontFamily: 'monospace', fontSize: '10px', color: '#0066cc' }}>
 {`      [o_o]     [^_^]
