@@ -318,9 +318,9 @@ export default function Home() {
                             <span style={{ fontSize: '20px', fontWeight: 'bold' }}>❀ GET IN TOUCH ❀</span>
                           </center>
                           <p align="center">
-                            general stuff: <a href="mailto:hello@arthack.xyz" style={{ color: '#0000ff' }}>hello@arthack.xyz</a><br />
+                            general stuff: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a><br />
                             press (lol): <a href="mailto:ashleyjherr@gmail.com" style={{ color: '#0000ff' }}>ashleyjherr@gmail.com</a><br />
-                            money stuff: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a>
+                            money stuff: <a href="mailto:medhaav.mahesh@gmail.com" style={{ color: '#0000ff' }}>medhaav.mahesh@gmail.com</a>
                           </p>
                         </td>
                       </tr>
