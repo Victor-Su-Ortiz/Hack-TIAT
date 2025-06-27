@@ -68,7 +68,7 @@ export default function Home() {
               animation: 'marquee 15s linear infinite',
               position: 'absolute'
             }}>
-              <span style={{ color: '#ff00ff' }}>❀</span> AUGUST 15-17 @ FRONTIER TOWER <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
+              <span style={{ color: '#ff00ff' }}>❀</span> AUGUST 15-17 @ TO BE ANNOUNCED <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
             </div>
           </div>
 
@@ -109,11 +109,11 @@ export default function Home() {
                             
                             <p>come build:</p>
                             <ul>
-                              <li>glitchy AI dreams</li>
-                              <li>impossible machines</li>
-                              <li>digital gardens</li>
-                              <li>speculative futures</li>
-                              <li>whatever you want!</li>
+                              <li>art through AI hallucinations & glitch aesthetics</li>
+                              <li>impossible machines & speculative futures</li>
+                              <li>digital gardens & synthetic dreams</li>
+                              <li>critical AI experiments</li>
+                              <li>whatever weird thing you imagine!</li>
                             </ul>
                             
                             <center>
@@ -223,7 +223,7 @@ export default function Home() {
                         <td>
                           <span style={{ fontSize: '20px', color: '#0000ff', fontWeight: 'bold' }}>❀ WHERE? ❀</span>
                           <hr />
-                          <p>Frontier Tower, San Francisco</p>
+                          <p>To be announced</p>
                           <p>(we&apos;ll email you the exact address when you sign up)</p>
                           <p>
                             <span style={{
@@ -293,7 +293,7 @@ export default function Home() {
                       <tr>
                         <td>
                           <span style={{ fontSize: '16px', fontWeight: 'bold' }}>SPONSORS</span>
-                          <p>want to support weird art+tech? email us: <a href="mailto:sponsors@arthack.xyz" style={{ color: '#0000ff' }}>sponsors@arthack.xyz</a></p>
+                          <p>want to support weird art+tech? email us: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a></p>
                           <p>
                             levels:<br />
                             • big supporter ($5k+)<br />
@@ -319,8 +319,8 @@ export default function Home() {
                           </center>
                           <p align="center">
                             general stuff: <a href="mailto:hello@arthack.xyz" style={{ color: '#0000ff' }}>hello@arthack.xyz</a><br />
-                            press (lol): <a href="mailto:press@arthack.xyz" style={{ color: '#0000ff' }}>press@arthack.xyz</a><br />
-                            money stuff: <a href="mailto:sponsors@arthack.xyz" style={{ color: '#0000ff' }}>sponsors@arthack.xyz</a>
+                            press (lol): <a href="mailto:ashleyjherr@gmail.com" style={{ color: '#0000ff' }}>ashleyjherr@gmail.com</a><br />
+                            money stuff: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a>
                           </p>
                         </td>
                       </tr>
