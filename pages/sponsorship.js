@@ -54,11 +54,27 @@ export default function Sponsorship() {
           <table style={{ backgroundColor: '#ccddff', width: '100%', maxWidth: '600px' }} border="2" cellPadding="5" cellSpacing="0">
             <tbody>
               <tr>
-                <td align="center" style={{ padding: '8px 4px' }}><Link href="/" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>HOME</Link></td>
-                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</Link></td>
-                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</Link></td>
+                <td align="center" style={{ padding: '8px 4px' }}>
+                  <Link href="/" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)', textDecoration: 'underline' }}>
+                    HOME
+                  </Link>
+                </td>
+                <td align="center" style={{ padding: '8px 4px' }}>
+                  <Link href="/#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)', textDecoration: 'underline' }}>
+                    WHEN
+                  </Link>
+                </td>
+                <td align="center" style={{ padding: '8px 4px' }}>
+                  <Link href="/#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)', textDecoration: 'underline' }}>
+                    WHERE
+                  </Link>
+                </td>
                 <td align="center" style={{ padding: '8px 4px' }}><span style={{ color: '#ff0000', fontSize: 'clamp(11px, 2vw, 14px)', fontWeight: 'bold' }}>SPONSOR</span></td>
-                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</Link></td>
+                <td align="center" style={{ padding: '8px 4px' }}>
+                  <Link href="/#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)', textDecoration: 'underline' }}>
+                    EMAIL
+                  </Link>
+                </td>
               </tr>
             </tbody>
           </table>
