@@ -1,5 +1,6 @@
 // pages/index.js
 import Head from 'next/head'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -82,7 +83,11 @@ export default function Home() {
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</a></td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</a></td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#apply" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>APPLY</a></td>
-                <td align="center" style={{ padding: '8px 4px' }}><a href="/sponsorship" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>SPONSOR</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}>
+                  <Link href="/sponsorship" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)', textDecoration: 'underline' }}>
+                    SPONSOR
+                  </Link>
+                </td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</a></td>
               </tr>
             </tbody>
@@ -312,9 +317,9 @@ export default function Home() {
                               <tbody>
                                 <tr>
                                   <td>
-                                    <a href="/sponsorship" style={{ color: '#ff00ff', fontWeight: 'bold' }}>
+                                    <Link href="/sponsorship" style={{ color: '#ff00ff', fontWeight: 'bold', textDecoration: 'none' }}>
                                       → SEE SPONSORSHIP PACKAGES ←
-                                    </a>
+                                    </Link>
                                   </td>
                                 </tr>
                               </tbody>
