@@ -1,5 +1,6 @@
 // pages/sponsorship.js
 import Head from 'next/head'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 export default function Sponsorship() {
@@ -53,11 +54,11 @@ export default function Sponsorship() {
           <table style={{ backgroundColor: '#ccddff', width: '100%', maxWidth: '600px' }} border="2" cellPadding="5" cellSpacing="0">
             <tbody>
               <tr>
-                <td align="center" style={{ padding: '8px 4px' }}><a href="/" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>HOME</a></td>
-                <td align="center" style={{ padding: '8px 4px' }}><a href="/#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</a></td>
-                <td align="center" style={{ padding: '8px 4px' }}><a href="/#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><Link href="/" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>HOME</Link></td>
+                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</Link></td>
+                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</Link></td>
                 <td align="center" style={{ padding: '8px 4px' }}><span style={{ color: '#ff0000', fontSize: 'clamp(11px, 2vw, 14px)', fontWeight: 'bold' }}>SPONSOR</span></td>
-                <td align="center" style={{ padding: '8px 4px' }}><a href="/#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><Link href="/#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</Link></td>
               </tr>
             </tbody>
           </table>
@@ -122,7 +123,7 @@ export default function Sponsorship() {
                       Art Hack - Poetic Computing is a creative technology event where artists, designers, 
                       programmers, and poets come together to explore the intersection of code and creativity. 
                       Over 3 days, participants collaborate to create experimental digital art, interactive 
-                      installations, and poetic algorithms that push the boundaries of what's possible when 
+                      installations, and poetic algorithms that push the boundaries of what&apos;s possible when 
                       art meets technology. This unique hackathon celebrates the beauty in code and the logic 
                       in art, fostering a community where technical innovation serves artistic expression.
                     </p>
