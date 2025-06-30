@@ -74,7 +74,7 @@ export default function Home() {
 
           <br /><br />
 
-          {/* Navigation */}
+          {/* Navigation - UPDATED WITH SPONSOR LINK */}
           <table style={{ backgroundColor: '#ccddff', width: '100%', maxWidth: '600px' }} border="2" cellPadding="5" cellSpacing="0">
             <tbody>
               <tr>
@@ -82,6 +82,7 @@ export default function Home() {
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#when" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHEN</a></td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#where" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>WHERE</a></td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#apply" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>APPLY</a></td>
+                <td align="center" style={{ padding: '8px 4px' }}><a href="/sponsorship" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>SPONSOR</a></td>
                 <td align="center" style={{ padding: '8px 4px' }}><a href="#contact" style={{ color: '#0000ff', fontSize: 'clamp(11px, 2vw, 14px)' }}>EMAIL</a></td>
               </tr>
             </tbody>
@@ -292,7 +293,7 @@ export default function Home() {
 
                   <br />
 
-                  {/* Sponsors */}
+                  {/* Sponsors - UPDATED WITH LINK TO SPONSORSHIP PAGE */}
                   <table width="100%" border="1" cellPadding="10" cellSpacing="0" style={{ backgroundColor: '#f0f0f0' }}>
                     <tbody>
                       <tr>
@@ -306,6 +307,19 @@ export default function Home() {
                             • friend ($1k+)<br />
                             • pizza sponsor ($whatever)
                           </p>
+                          <center>
+                            <table style={{ backgroundColor: '#ffccff' }} border="2" cellPadding="5">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <a href="/sponsorship" style={{ color: '#ff00ff', fontWeight: 'bold' }}>
+                                      → SEE SPONSORSHIP PACKAGES ←
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </center>
                         </td>
                       </tr>
                     </tbody>
