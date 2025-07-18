@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>☆ ART HACK - POETIC COMPUTING ☆</title>
-        <meta name="description" content="critical AI experiments hackathon august 15-17" />
+        <meta name="description" content="critical AI experiments hackathon september 19-21" />
         <meta name="keywords" content="hackathon, AI, art, poetic computing, san francisco" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -69,7 +69,7 @@ export default function Home() {
               animation: 'marquee 15s linear infinite',
               position: 'absolute'
             }}>
-              <span style={{ color: '#ff00ff' }}>❀</span> AUGUST 15-17 @ TO BE ANNOUNCED <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
+              <span style={{ color: '#ff00ff' }}>❀</span> SEPTEMBER 19-21 @ TO BE ANNOUNCED <span style={{ color: '#00ff00' }}>❀</span> CRITICAL AI EXPERIMENTS <span style={{ color: '#ff00ff' }}>❀</span> $10 TICKETS <span style={{ color: '#00ff00' }}>❀</span> ALL WELCOME <span style={{ color: '#ff00ff' }}>❀</span>
             </div>
           </div>
 
@@ -156,7 +156,7 @@ export default function Home() {
                       </tr>
                       <tr>
                         <td colSpan="2" style={{ backgroundColor: '#ccffcc' }}>
-                          <b>FRIDAY AUG 15</b> <span style={{ color: '#ff00ff' }}>❀</span>
+                          <b>FRIDAY SEPT 19</b> <span style={{ color: '#ff00ff' }}>❀</span>
                         </td>
                       </tr>
                       <tr>
@@ -177,7 +177,7 @@ export default function Home() {
                       </tr>
                       <tr>
                         <td colSpan="2" style={{ backgroundColor: '#ccffcc' }}>
-                          <b>SATURDAY AUG 16</b> <span style={{ color: '#ff00ff' }}>❀</span>
+                          <b>SATURDAY SEPT 20</b> <span style={{ color: '#ff00ff' }}>❀</span>
                         </td>
                       </tr>
                       <tr>
@@ -202,7 +202,7 @@ export default function Home() {
                       </tr>
                       <tr>
                         <td colSpan="2" style={{ backgroundColor: '#ccffcc' }}>
-                          <b>SUNDAY AUG 17</b> <span style={{ color: '#ff00ff' }}>❀</span>
+                          <b>SUNDAY SEPT 21</b> <span style={{ color: '#ff00ff' }}>❀</span>
                         </td>
                       </tr>
                       <tr>
@@ -289,7 +289,7 @@ export default function Home() {
                             </table>
                             
                             <br />
-                            <span style={{ fontSize: '11px' }}>deadline: august 1st (but like, we&apos;re flexible)</span>
+                            <span style={{ fontSize: '11px' }}>deadline: september 1st (but like, we&apos;re flexible)</span>
                           </center>
                         </td>
                       </tr>
