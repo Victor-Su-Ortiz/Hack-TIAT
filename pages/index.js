@@ -43,6 +43,9 @@ export default function Home() {
                   </span><br />
                   <span style={{ fontFamily: 'Arial', fontSize: 'clamp(16px, 3vw, 24px)', color: '#0066cc' }}>
                     ~ poetic computing ~
+                  </span><br />
+                  <span style={{ fontFamily: 'Arial', fontSize: 'clamp(10px, 2vw, 12px)', color: '#666666', marginTop: '5px', display: 'inline-block' }}>
+                    co-hosted by <a href="https://www.aivalley.io/" target="_blank" style={{ color: '#0066cc' }}>AI Valley</a> & <a href="https://tiat.vercel.app/" target="_blank" style={{ color: '#0066cc' }}>TIAT</a>
                   </span>
                 </td>
               </tr>
@@ -110,6 +113,8 @@ export default function Home() {
                           <hr />
                           <div style={{ fontFamily: 'Verdana, Arial', fontSize: '13px' }}>
                             <p>hey! we&apos;re doing a 3-day hackathon about using AI in weird/critical/poetic ways</p>
+                            
+                            <p>brought to you by <a href="https://www.aivalley.io/" target="_blank" style={{ color: '#0066cc', fontWeight: 'bold' }}>AI Valley</a> (where visionaries build the future) × <a href="https://tiat.vercel.app/" target="_blank" style={{ color: '#0066cc', fontWeight: 'bold' }}>TIAT</a> (the intersection of art & technology)</p>
                             
                             <p>tired of boring corporate AI? want to make something strange and beautiful instead?</p>
                             
@@ -273,7 +278,7 @@ export default function Home() {
                               just bring ideas!<br /><br />
                               
                               <span style={{ fontSize: '20px', color: '#ff0000', fontWeight: 'bold' }}>only $10!</span><br />
-                              (includes food & workshops)<br /><br />
+                              (includes food & drinks)<br /><br />
                             </span>
                             
                             <table style={{ backgroundColor: '#ffffff' }} border="2" cellPadding="10">
@@ -343,8 +348,7 @@ export default function Home() {
                           </center>
                           <p align="center">
                             general stuff: <a href="mailto:community@aivalley.io" style={{ color: '#0000ff' }}>community@aivalley.io</a><br />
-                            press (lol): <a href="mailto:ashleyjherr@gmail.com" style={{ color: '#0000ff' }}>ashleyjherr@gmail.com</a><br />
-                            money stuff: <a href="mailto:medhaav.mahesh@gmail.com" style={{ color: '#0000ff' }}>medhaav.mahesh@gmail.com</a>
+                            logistics: <a href="mailto:ashleyjherr@gmail.com" style={{ color: '#0000ff' }}>ashleyjherr@gmail.com</a><br />
                           </p>
                         </td>
                       </tr>
