@@ -304,7 +304,7 @@ export default function Home() {
                       <tr>
                         <td>
                           <span style={{ fontSize: '16px', fontWeight: 'bold' }}>SPONSORS</span>
-                          <p>want to support weird art+tech? email us: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a></p>
+                          <p>want to support weird art+tech? email us: <a href="mailto:community@aivalley.io" style={{ color: '#0000ff' }}>community@aivalley.io</a></p>
                           <p>
                             levels:<br />
                             • big supporter ($5k+)<br />
@@ -342,7 +342,7 @@ export default function Home() {
                             <span style={{ fontSize: '20px', fontWeight: 'bold' }}>❀ GET IN TOUCH ❀</span>
                           </center>
                           <p align="center">
-                            general stuff: <a href="mailto:vsuortiz@andrew.cmu.edu" style={{ color: '#0000ff' }}>vsuortiz@andrew.cmu.edu</a><br />
+                            general stuff: <a href="mailto:community@aivalley.io" style={{ color: '#0000ff' }}>community@aivalley.io</a><br />
                             press (lol): <a href="mailto:ashleyjherr@gmail.com" style={{ color: '#0000ff' }}>ashleyjherr@gmail.com</a><br />
                             money stuff: <a href="mailto:medhaav.mahesh@gmail.com" style={{ color: '#0000ff' }}>medhaav.mahesh@gmail.com</a>
                           </p>
